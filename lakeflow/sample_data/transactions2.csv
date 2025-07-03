@@ -1,0 +1,5 @@
+transaction_id,user_id,item,amount,timestamp,city_code
+T1003,U1002,Monitor,998.21,2025-07-01 10:15:00,MUC
+T1004,U1001,Headphones,618.77,2025-07-01 10:20:00,ROM
+T1005,U1003,Mouse,1193.25,2025-07-01 10:25:00,ROM
+T1006,U1009,Mouse,277.31,2025-07-01 10:30:00,PAR
