@@ -1,8 +1,4 @@
-## Databricks Tutorials
-
-This repository contains the source code for databricks tutorial
-
-## Databricks Lakeflow – Hands-On Implementation
+# Databricks Lakeflow – Hands-On Implementation
 
 This repository contains the source code, sample data, and setup instructions for the hands-on implementation described in the Medium article:  
 **Databricks Lakeflow: A Unified Data Engineering Solution**
