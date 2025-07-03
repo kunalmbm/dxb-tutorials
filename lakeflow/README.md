@@ -15,10 +15,9 @@ Databricks Lakeflow is a unified data engineering solution that simplifies the i
 
 ---
 
-## 📁 Repository Structure
-lakeflow/
-lakeflow/
-│
+## 📁 Repository Structure (lakeflow/)
+
+```
 ├── sample_data/
 │   ├── config_data_v1.csv
 │   ├── config_data_v2.csv
@@ -39,5 +38,20 @@ lakeflow/
 │   └── setup_notebook.py
 │
 └── README.md
+```
 
+---
 
+## 🚀 Getting Started
+
+### 1. Upload Sample Data
+   Use the ldp_pipeline/explorations/setup_notebook.py to perform setup activities such as uploading CSV files to a Databricks volume.
+
+### 2. Run the Pipeline
+   Use the SQL files in the ldp_pipeline/transformations/ directory to define and run your Lakeflow declarative pipeline.
+
+## 🙌 Acknowledgments
+This project is inspired by Databricks' Lakeflow GA announcement at the Data + AI Summit 2025.
+
+## 📬 Feedback
+Feel free to open issues or submit pull requests if you have suggestions or improvements!
