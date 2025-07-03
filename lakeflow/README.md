@@ -52,6 +52,3 @@ Databricks Lakeflow is a unified data engineering solution that simplifies the i
 
 ## 🙌 Acknowledgments
 This project is inspired by Databricks' Lakeflow GA announcement at the Data + AI Summit 2025.
-
-## 📬 Feedback
-Feel free to open issues or submit pull requests if you have suggestions or improvements!
