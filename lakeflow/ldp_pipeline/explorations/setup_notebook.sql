@@ -35,7 +35,7 @@ SELECT * FROM csv.`/Volumes/workspace/default/vol1/config_data_v2/`;
 
 -- COMMAND ----------
 
--- MAGIC %sh curl https://raw.githubusercontent.com/kunalmbm/dxb-tutorials/main/lakeflow/sample_data/transactions1.csv --output /Volumes/workspace/default/vol1/transaction_data_v2/transactions1.csv
+-- MAGIC %sh curl https://raw.githubusercontent.com/kunalmbm/dxb-tutorials/main/lakeflow/sample_data/transactions2.csv --output /Volumes/workspace/default/vol1/transaction_data_v2/transactions2.csv
 -- MAGIC
 
 -- COMMAND ----------
@@ -73,4 +73,4 @@ ALTER VOLUME vol1 RENAME TO vol2;
 
 -- COMMAND ----------
 
-select * from config_city;
+select transaction_id, user_id, item, amount, `timestamp`, upload_timestamp from transaction_bronze order by upload_timestamp, transaction_id;
