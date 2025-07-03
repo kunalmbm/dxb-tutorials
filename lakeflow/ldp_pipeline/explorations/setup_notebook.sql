@@ -73,4 +73,4 @@ ALTER VOLUME vol1 RENAME TO vol2;
 
 -- COMMAND ----------
 
-select transaction_id, user_id, item, amount, `timestamp`, upload_timestamp from transaction_bronze order by upload_timestamp, transaction_id;
+select * from mapped_transaction;
