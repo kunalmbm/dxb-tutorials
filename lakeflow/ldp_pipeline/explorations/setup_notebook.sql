@@ -26,7 +26,7 @@ CREATE VOLUME IF NOT EXISTS vol1;
 
 -- COMMAND ----------
 
--- MAGIC %sh curl https://raw.githubusercontent.com/kunalmbm/dxb-tutorials/main/lakeflow/sample_data/config1.csv --output /Volumes/workspace/default/vol1/config_data_v2/config1.csv
+-- MAGIC %sh curl https://raw.githubusercontent.com/kunalmbm/dxb-tutorials/main/lakeflow/sample_data/config2.csv --output /Volumes/workspace/default/vol1/config_data_v2/config1.csv
 
 -- COMMAND ----------
 

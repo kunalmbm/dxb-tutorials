@@ -1,4 +1,0 @@
-transaction_id,user_id,item,amount,timestamp,city_code
-T1007,U1007,Laptop,367.66,2025-07-01 10:35:00,ROM
-T1008,U1008,Monitor,825.0,2025-07-01 10:40:00,ROM
-T1009,U1003,Mouse,560.08,2025-07-01 10:45:00,PAR
