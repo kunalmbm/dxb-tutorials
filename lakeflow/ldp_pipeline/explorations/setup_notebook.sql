@@ -73,4 +73,4 @@ ALTER VOLUME vol1 RENAME TO vol2;
 
 -- COMMAND ----------
 
-select country, sum(amount) total_spend, count(transaction_id) as total_transactions  from mapped_transaction group by country
+select * from config_city;
